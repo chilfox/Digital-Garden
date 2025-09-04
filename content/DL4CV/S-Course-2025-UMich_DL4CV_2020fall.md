@@ -8,6 +8,14 @@ date_end: 2025-08-16
 url: https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2020/
 tags:
 ---
+# Introduction to the Course
+
+Name: UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision
+Lecturer: Justin Johnson
+Course Website: https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2020/
+
+> [!note] 注：你可以用反向連結返回上一個筆記
+
 # Linear Classifier Network
 ## Lecture 02: Image Classification
 
@@ -23,3 +31,9 @@ tags:
 > - **Regularization**: A method which enable us to tell the model our preference toward the final model and prevent overfitting
 
 - [[D-DL4CV-Lec03-Linear_Classifier]]
+
+## Lecture 04: Optimization
+> In the previous lecture, we learned the loss function which tells us how good our model is performing currently.
+> In this lecture, we introduces "optimization", which is the process utilizing the loss we've computed to improve the model
+
+- [[D-DL4CV-Lec04-Optimization]]
