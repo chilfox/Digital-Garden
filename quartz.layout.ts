@@ -38,10 +38,10 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
   ],
   right: [
     Component.Graph(),
+    Component.Backlinks(),
   ],
 }
 
