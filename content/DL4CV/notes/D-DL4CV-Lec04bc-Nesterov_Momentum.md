@@ -12,18 +12,18 @@ Instead of deciding where to go only based on current situation (`compute_gradie
 
 ## Mathematical Expression
 $$
-\begin{align}
+\begin{align*}
 v_{t+1} &= \rho v_{t} - \alpha \nabla f(x_{t}+\rho v_{t}) \\
 x_{t+1} &= x_{t} + v_{t+1}
-\end{align}
+\end{align*}
 $$
 However, we want to update in terms of $x_{t}$ and $\nabla f(x_{t})$, thus by change of variable ($\tilde{x}_{t}=x_{t}+\rho v_{t}$) and some rearrangement, we have
 $$
-\begin{align}
+\begin{align*}
 v_{t+1} &= \rho v_{t} - \alpha \nabla f(\tilde{x}_{t}) \\
 x_{t+1} &= \tilde{x}_{t} - \rho v_{t} + (1+\rho)v_{t+1} \\
 &= \tilde{x}_{t} + v_{t+1} + \rho(v_{t+1}-v_{t})
-\end{align}
+\end{align*}
 $$
 
 ## Implementation

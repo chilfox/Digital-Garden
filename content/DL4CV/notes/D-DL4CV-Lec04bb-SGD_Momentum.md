@@ -14,10 +14,10 @@ Use "friction" $\rho$ term to reduce influence of ancient gradient to the curren
 
 ## Mathematical Expression
 $$
-\begin{aligned}
+\begin{align*}
 v_{t+1} &= \rho v_{t} + \nabla f(x_{t}) \\
 x_{t+1} &= x_{t} - \alpha v_{t+1}
-\end{aligned}
+\end{align*}
 $$
 ## Implementation
 
