@@ -12,10 +12,10 @@ In [[D-DL4CV-Lec03a-Linear_Classifier#Hard Cases for Linear Classifier|lecture 3
 For example, if the feature distributions are in circle, then we can apply change of variables to make linear classifier works
 
 $$
-\begin{align}
+\begin{align*}
 r &= (x^{2}+y^{2})^{1/2} \\
 \theta &= \tan ^{-1}\left( \frac{y}{x} \right)
-\end{align}
+\end{align*}
 $$
 
 ## Different Ways of Feature Transform in Computer Vision
