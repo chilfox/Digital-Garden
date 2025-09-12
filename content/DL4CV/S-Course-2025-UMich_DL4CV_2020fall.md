@@ -37,3 +37,16 @@ Course Website: https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2020/
 > In this lecture, we introduces "optimization", which is the process utilizing the loss we've computed to improve the model
 
 - [[D-DL4CV-Lec04-Optimization]]
+
+## Lecture 05: Neural Networks
+
+> In this lecture, we introduces
+> 1. Feature Transform
+> 2. Neural Network
+> 3. Space Warping
+> 4. Universal Approximation
+> 
+> We can't control our data distribution, but we can do feature transform to make them distribute in a way which we can easily classify
+> Neural network gave us a way to tackle the problem we find in linear classifier. Space warping and universal approximation give us intuition about why and how neural network works
+
+- [[D-DL4CV-Lec05-Neural_Networks]]
