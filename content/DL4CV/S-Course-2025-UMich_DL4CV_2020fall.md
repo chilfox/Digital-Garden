@@ -50,3 +50,9 @@ tags:
 > Neural network gave us a way to tackle the problem we find in linear classifier. Space warping and universal approximation give us intuition about why and how neural network works
 
 - [[D-DL4CV-Lec05-Neural_Networks]]
+
+## Lecture 06: Backpropagation
+
+> Backpropagation gives us an efficient and modular way to calculate gradient of the loss
+
+- [[D-DL4CV-Lec06-Backpropagation]]
